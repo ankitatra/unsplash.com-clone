@@ -1,0 +1,109 @@
+.navbar{
+    height:120px;
+    width:100%;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top:-8px;
+    position: fixed;
+    background-color: white;
+    /* border: 1px solid blue; */
+   
+}
+#nav1{
+    height:50%;
+    width:100%;
+    /* border:1px solid black;  */
+    display:flex;
+    margin:auto;
+    color:gray;
+    
+}
+#nav1>div{
+    height: 90%;
+    width:70px;
+    /* border:2px solid black */
+}
+
+#nav1>div>img{
+    width:100%;
+    height: 60%;
+    padding-top:10px ;
+}
+#nav1>#Search{
+   width:50%;
+   border-radius: 50px;
+   height: 40px;
+   margin-left: 10px;
+   margin-top: 10px;
+   border: white;
+   text-align: left;
+   color: rgba(169, 169, 169, 0.863);
+  
+
+}
+#nav1>#part1{
+    display:flex;
+    width:600px;
+    /* border:1px solid yellow; */
+    margin-left: 10px;
+   
+}
+#part1>div{
+    /* border:1px solid green; */
+    margin: auto;
+}
+#line{
+    font-size: 40px;
+    color:gray;
+    font-weight:lighter;
+}
+#slash{
+    font-size: 20px;
+}
+#part1>div~#login{
+    margin-right: 0px;
+}
+#part1>div~#signup{
+    margin-left: 0px;
+}
+#btn>button{
+    width:110px;
+    height:30px;
+    text-align: center;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+
+
+#nav2{
+    height:40%;
+    width:100%;
+    /* border:1px solid red; */
+    display:flex
+ } 
+
+ #nav2>#part1{
+    height:90%;
+    width:130px;
+    display:flex;
+    
+ }
+
+ #nav2>#part1>div{
+    margin: auto;
+ }
+
+ #nav2>#part1>div:nth-child(1){
+    margin-top:9px;
+    color:gray;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 1px solid blue; */
+ }
+ #nav2>#part1>div:nth-child(2){
+    margin-top:0px;
+    font-weight: lighter;
+    font-size: 30px;
+    color:gray;
+ }
