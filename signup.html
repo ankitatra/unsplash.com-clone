@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <style>
+        #main{
+            display: flex;
+            margin: auto;
+        }
+        #static{
+            height:615px;
+            width:40%;
+            border:1px solid black;
+            position: fixed;
+        }
+
+        #signup{
+            height:850px;
+            width:58%;
+            /* border:1px solid blue; */
+            margin-left: 20px;
+            position: absolute;
+            left: 550px;
+           
+        }
+        #static>img{
+            width: 100%;
+            /* position: fixed; */
+        }
+        #static>#logo{
+            height: 50px;
+            width:30px;
+            /* border:3px solid red; */
+            position: absolute;
+            top:100px;
+            left:70px;
+
+        }
+       #middle{
+        height: 100px;
+            width:400px;
+            /* border:3px solid red; */
+            position: absolute;
+            top:200px;
+            left:70px;
+            color: white;
+
+       }
+       #middle>h1{
+        font-size: 60px;
+        font-weight: lighter;
+       }
+       #middle>h2{
+        font-size: 25px;
+        font-weight: lighter;
+       }
+       #border{
+        height:750px;
+        width:450px;
+        /* border:1px solid black; */
+        position: absolute;
+        left:170px;
+        text-align: center;
+        margin-top: 40px;
+       }
+       #border>div{
+        height: 20px;
+        width: 450px;
+        text-align: center;
+        background-color: rgba(0, 0, 255, 0.842);
+        margin-top: 60px;
+        padding-top: 10px;
+        border-radius: 5px;
+        padding-bottom: 10px;
+        font-size: 18px;
+       }
+       #border>div>a{
+        color:white;
+       
+       }
+       #border>h1{
+        font-size: 50px;
+        font-weight: bolder;
+       }
+       #border>p{
+        font-size: 18px;
+        font-weight: lighter;
+       }
+       input[type=submit]{
+        width:450px;
+        height:20px;
+        background-color: black;
+        color:white;
+        margin-top: 30px;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        font-size: 18px;
+        font-weight: lighter;
+
+
+       }
+       #fname{
+        width:200px;
+        height:35px;
+        margin-right: 30px;
+        border: 1px solid rgba(255, 0, 0, 0.356);
+        margin-bottom: 20px;
+       }
+       #lname{
+        width:200px;
+        height:35px;
+        margin-bottom: 20px;
+
+       }
+       form>#fn{
+        padding-left:-10000px
+       }
+       #email,#username,#password{
+        width:440px;
+        height:35px;
+        margin-bottom: 20px;
+        border: 1px solid rgba(255, 0, 0, 0.356);
+        margin-top: 5px;
+      
+       }
+       form{
+        text-align: left;
+        font-size: 17px;
+        font-weight:lighter ;
+        color: red;
+       }
+       form>lable:nth-child(2){
+        margin-left: 160px;
+        color:black;
+       }
+       form>lable:nth-child(3){
+        color: red;
+       }
+       form>lable:nth-child(4){
+        color: red;
+      }
+      form span{
+        color:gray
+      }
+#term{
+    color:gray;
+    text-align: 16px;
+}
+      #term>span{
+        text-decoration: underline;
+        color: gray;
+      }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="static">
+            <img src="https://images.unsplash.com/photo-1658331475419-d08df2975240?ixlib=rb-1.2.1&amp;w=1080&amp;fit=max&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb"> -->
+            <div id="logo">
+                <img id="logo" src="https://unsplash.com/assets/core/logo-white-8962708214629a3e8f9fbf5b87b70c3ace41c4175cbcc267f7fbb8449ac45bdd.svg">
+            </div>
+            <div id="middle">
+                <h1 class="registrations__title">Creation starts here</h1>
+                <h2 class="registrations__sub-title">Access 4,073,025 free, high-resolution photos you can’t find anywhere else</h2>
+            </div>
+        </div>
+       
+        <div id="signup">
+            <div id="border">
+                <h1>Join Unsplash</h1>
+                <P>Already have an account?   <a href=Login.html>login</a></P>
+                <div>
+                    <a href="https://www.facebook.com">Join using facebook</a>
+                </div>
+                <P>OR</P>
+                <form>
+                    <lable id="fn">First name</lable>
+                    <lable id="ln">Last name</lable><br>
+                    <input type="text" value="" id="fname">
+                    
+                    <input type="text" value="" id="lname"><br>
+                    <label>Email</label><br>
+                    <input type="email" vale="" id="email"><br>
+                    <label>Username<span>(only letter,number,underscore)</span></label><br>
+                    <input type="text" id="username"><br>
+                    <lable>Password</lable><br>
+                    <input type="password" id="password"><br>
+                    <input type="submit" placeholder="Join">
+
+                </form>
+                <p id="term">By joining, you agree to the <span>Terms </span> and<span>Privacy Policy.</span> </p>
+               
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+

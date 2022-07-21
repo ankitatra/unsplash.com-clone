@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+     <style>
+        #main{
+            height:630px;
+            width:40%;
+            margin:auto;
+           
+            /* border:1px solid black */
+        }
+
+        #icon{
+            height:70px;
+            width:10%;
+            /* border:1px solid green; */
+            position: absolute;
+            left: 600px;
+            text-align: center;
+
+        }
+        #icon>img{
+            width: 100%;
+        }
+        #main>button{
+            position: absolute;
+            top:200px;
+            width:40%;
+            height: 45px;
+            left:405px;
+            color: white;
+            background-color: rgba(0, 0, 255, 0.856);
+            border-radius: 5px;
+            border: 0ch;
+
+        }
+        #main>p{
+            position: absolute;
+            top:250px;
+            left:660px
+        }
+        #form{
+            height:400px;
+            width:530px;
+           
+            position: absolute;
+            /* display: flex; */
+            font-size: 18px;
+            top:300px;
+            left:410px
+        }
+        /* #form>input{
+            height:40px;
+            width:99%;
+        } */
+        input[type=submit]{
+            background-color: black;
+            color: white;
+            margin-top: 25px;
+            height: 45px;
+            width: 101%;
+            border-radius: 5px;
+            border: white;
+            
+        }
+        input[type=gmail]{
+            margin-bottom: 20px;
+            height: 35px;
+            width: 99%;
+        }
+        input[type=password]{
+            margin-top: 15px;
+            height: 35px;
+            width: 99%;
+        }
+        #footer{
+            height:40px;
+            width:40%;
+            border:1px solid gray;
+            position:absolute;
+            top:580px;
+            text-align: center;
+            padding-top: 35px;
+
+        }
+        span{
+            color: blue;
+            font-variant: normal;
+            text-decoration: underline;
+        }
+        #forgot{
+            position: absolute;
+            top:405px;
+            color: gray;
+            left:800px;
+            text-decoration: underline;
+        }
+     </style>
+</head>
+<body>
+    <div id="main">
+        <div id="icon">
+           <img src="https://tse1.mm.bing.net/th?id=OIP.WRguQ2n1z4kadfQHCsY0wgHaD4&pid=Api&P=0"/>
+           <h1>Login</h1>
+           <p>Welcome Back</p>
+           
+        </div>
+        <button>Login With Facebook</button>
+        <p>OR</p>
+        <div id="form">
+            <form action="">
+                <label>Email</label></form><br>
+                <input type="gmail" value=""><br>
+                <label>Password</label><br>
+                <input type="password" value=""><br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        <div id="footer">
+          Don'thave any accounr?<span>Join unplash</span> 
+        </div>
+        <div id="forgot">
+            Forgot your password?
+        </div>
+      
+    </div>
+</body>
+</html>
