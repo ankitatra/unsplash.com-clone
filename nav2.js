@@ -16,7 +16,7 @@ span[1].onclick=()=>{
     //       console.log("hii")
       
      if(l==1){i.style.left="-740px";}
-     if(l==2){i.style.left="-1100px";}
+     if(l==2){i.style.left="-880px";}
      
     
      

@@ -67,7 +67,7 @@
             border: white;
             
         }
-        input[type=gmail]{
+        input[type=email]{
             margin-bottom: 20px;
             height: 35px;
             width: 99%;
@@ -112,11 +112,11 @@
         <button>Login With Facebook</button>
         <p>OR</p>
         <div id="form">
-            <form action="">
-                <label>Email</label></form><br>
-                <input type="gmail" value=""><br>
+            <form>
+                <label>Email</label><br>
+                <input type="email"  id="gmail"><br>
                 <label>Password</label><br>
-                <input type="password" value=""><br>
+                <input type="password"  id="password"><br>
                 <input type="submit" value="Login">
             </form>
         </div>
@@ -130,3 +130,42 @@
     </div>
 </body>
 </html>
+<script>
+    form=document.querySelector("form")
+    form.addEventListener("submit",login)
+    let signupLS=JSON.parse(localStorage.getItem("signup"))||[]
+
+    function login(event){
+        event.preventDefault()
+        if(signupLS.length===0){
+        alert("NO user till now")
+        return
+       }
+         
+        
+        let obj={
+            email:document.getElementById("gmail").value,
+            password:document.getElementById("password").value
+        }
+        console.log(obj)
+       
+        let signup=false
+        signupLS.forEach(function(ele){
+            if(ele.email===obj.email && ele.password===obj.password){
+                
+                signup=true
+                localStorage.setItem("signin",JSON.stringify(ele))
+                alert("Sign up successful")
+
+              
+            }
+        })
+
+        
+    if(signup===false){
+    alert("Account Does Not Exist")
+      
+    }
+        
+    }
+</script>

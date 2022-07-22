@@ -3,7 +3,8 @@ main{
     width:1600px;
     /* border:1px solid black; */
     display:flex;
-    margin-left: 15px;
+    margin-left: 80px;
+    margin-top: -30px;
     overflow:hidden;
     position:relative; 
    text-align: center;
@@ -34,7 +35,7 @@ span{
 }
 
 span:nth-of-type(2){
-    left:76%;
+    left:79%;
     text-align: right;
 }
 .div{
@@ -57,21 +58,21 @@ span:nth-of-type(2){
     
     margin-left:-10px;
     margin-right:-29px;
-    /* border:2px solid brown */
+    border:2px solid brown
 }
 #nav2>#part2>main>section>#div3{
     min-width:200px;
     
     margin-left:-25px;
     margin-right:-29px;
-    /* border:2px solid brown */
+    border:2px solid brown
 }
 #nav2>#part2>main>section>#div7{
     min-width:200px;
     
     margin-left:-20px;
     margin-right:-29px;
-    /* border:2px solid brown */
+    border:2px solid brown
 }
 #nav2>#part2>main>section>#div8{
     min-width:200px;
