@@ -181,11 +181,11 @@
                 <form>
                     <lable id="fn">First name</lable>
                     <lable id="ln">Last name</lable><br>
-                    <input type="text" value="" id="fname">
+                    <input type="text"  id="fname">
                     
-                    <input type="text" value="" id="lname"><br>
+                    <input type="text"  id="lname"><br>
                     <label>Email</label><br>
-                    <input type="email" vale="" id="email"><br>
+                    <input type="email"  id="email"><br>
                     <label>Username<span>(only letter,number,underscore)</span></label><br>
                     <input type="text" id="username"><br>
                     <lable>Password</lable><br>
@@ -202,4 +202,63 @@
     
 </body>
 </html>
+
+<script>
+    document.querySelector("form").addEventListener("submit",sign)
+    let signupLS=JSON.parse(localStorage.getItem("signup"))||[]
+    function sign(event){
+        event.preventDefault()
+        console.log("hii")
+       
+        
+      let obj={
+        firstname:document.querySelector("#fname").value,
+        lastname:document.querySelector("#lname").value,
+
+        email:document.querySelector("#email").value,
+        username:document.querySelector("#username").value,
+        password:document.querySelector("#password").value,
+
+      };
+      console.log(obj)
+
+     
+    
+     
+    //   let j=JSON.parse(localStorage.getItem("data"))
+    // console.log(j.email)
+    if(obj.email=="" ){
+        alert("fill all details")
+        return
+       
+    }if(obj.username==""){
+        alert("fill all details")
+        return
+        
+    }
+        
+   if(obj.firstname==""){
+        alert("fill all details")
+        return
+        
+    }
+        
+   if(obj.lastname==""){
+        alert("fill all details")
+        return
+        
+    }
+    if(obj.password==""){
+        alert("fill all details")
+        return
+        
+    }if(obj.email!="" && obj.password!="" && obj.username!="" && obj.firstname!="" && obj.lastname!=""){
+        signupLS.push(obj)      
+        localStorage.setItem("signup",JSON.stringify(signupLS))
+        alert("sign-up completed")
+        // window.location.href="login.html"
+     }
+    }
+    </script>
+     
 

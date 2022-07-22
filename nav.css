@@ -49,8 +49,8 @@
     margin-left: 10px;
    
 }
-#part1>div{
-    /* border:1px solid green; */
+#part1 div{
+    /* border:4px solid green; */
     margin: auto;
 }
 #line{
@@ -79,7 +79,7 @@
 #nav2{
     height:40%;
     width:100%;
-    /* border:1px solid red; */
+    border:1px solid red;
     display:flex
  } 
 
