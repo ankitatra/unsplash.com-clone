@@ -26,7 +26,7 @@
         #icon>img{
             width: 100%;
         }
-        #main>button{
+        #main>a{
             position: absolute;
             top:200px;
             width:40%;
@@ -37,6 +37,13 @@
             border-radius: 5px;
             border: 0ch;
 
+        }
+        #main button{
+            background-color: rgba(0, 0, 255, 0.856);
+            border:rgba(0, 0, 255, 0.856);  
+            margin-left: 200px;
+            margin-top: 15px;
+            color:white
         }
         #main>p{
             position: absolute;
@@ -94,7 +101,7 @@
         }
         #forgot{
             position: absolute;
-            top:405px;
+            top:390px;
             color: gray;
             left:800px;
             text-decoration: underline;
@@ -109,7 +116,7 @@
            <p>Welcome Back</p>
            
         </div>
-        <button>Login With Facebook</button>
+        <a href="https://www.facebook.com/"><button>Login With Facebook</button></a>
         <p>OR</p>
         <div id="form">
             <form>
@@ -156,6 +163,7 @@
                 signup=true
                 localStorage.setItem("signin",JSON.stringify(ele))
                 alert("Sign up successful")
+                window.location.href="home.html"
 
               
             }
