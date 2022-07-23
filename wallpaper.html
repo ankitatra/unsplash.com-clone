@@ -13,7 +13,7 @@ h=594 2x" media="(min-width: 600px) and (max-width: 799px)">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Wallpaper</title>
     <link rel="stylesheet" type="text/css" href="nav.css" />
     <link rel="stylesheet" type="text/css" href="nav2.css" />
     <style>
@@ -209,27 +209,28 @@ a{
                 <span>&#139;</span>
                 <span>&#155;</span>
                 <section>
-                    <a href="currentEVENT.html"> <div class="div">Current Events</div></a>
-                    <div class="div">Wallpapers</div>
-                    <div class="div">3D Renders</div>
-                    <div class="div" id="div5">Textures & Patterns</div>
-                    <div class="div">Expermiental</div>
-                    <div class="div">Architectire</div>
-                    <div class="div">Nature</div>
-                    <div class="div" id="div3">Business & work</div>
-                    <div class="div">Fashion</div>
-                    <div class="div">Film</div>
-                    <div class="div">Food & Drink</div>
-                    <div class="div" id="div7">Health & Wellness</div>
-                    <div class="div">People</div>
-                    <div class="div">Interiors</div>
-                    <div class="div" id="div8">Street Photgraphy</div>
-                    <div class="div">Travel</div>
-                    <div class="div">Animal</div>
-                    <div class="div">Sprirituality</div>
-                    <div class="div">Art & Culture</div>
-                    <div class="div">History</div>
-                    <div class="div">Atheletics</div>
+                    <a href="currentEVENT.html"><div class="div">Current Events</div></a>
+                    <a href="wallpaper.html"><div class="div">Wallpapers</div></a>
+                    <a href="3Drenders.html"><div class="div">3D Renders</div></a>
+                    <a href="Textures&patterns.html"><div class="div" id="div5">Textures & Patterns</div></a>
+                    <a href="experimental.html"><div class="div">Expermiental</div></a>
+                    <a href="architechture.html"> <div class="div">Architectire</div></a>
+                    <a href="nature.html"><div class="div">Nature</div></a>
+                    
+                    <a href="business.html"> <div class="div" id="div3">Business & work</div></a>
+                    <a href="fashion.html"><div class="div">Fashion</div></a> 
+                    <a href="film.html"><div class="div">Film</div></a> 
+                    <a href="food&drink.html"><div class="div">Food & Drink</div></a>
+                    <a href="health.html"><div class="div" id="div7">Health & Wellness</div></a>
+                    <a href="people.html"> <div class="div">People</div><a>
+                    <a href="interiors.html">  <div class="div">Interiors</div><a>
+                    <a href="street.html"> <div class="div" id="div8">Street Photgraphy</div><a>
+                    <a href="travel.html"><div class="div">Travel</div><a>
+                    <a href="animal.html"><div class="div">Animal</div></a>
+                    <a href="spriritulity.html"><div class="div">Sprirituality</div></a>
+                    <a href="art&culture.html">  <div class="div">Art & Culture</div><a>
+                    <a href="history.html"><div class="div">History</div><a>
+                    <a href="atheletic.html"><div class="div">Atheletics</div><a>
                 </section>
                
             </main>
@@ -255,7 +256,7 @@ a{
         <div id="theam">
             <img src="https://images.unsplash.com/photo-1658233126994-e383874733ba?ixlib=rb-1.2.1&amp;"/>
             <div id="theam-upper">
-                <p>Curent Event</p>
+                <p>Wallpaper</p>
                 <div id="text"><P>  From epic drone shots to inspiring moments in nature — submit your best desktop and mobile backgrounds.</P>
                 </div>
               
@@ -799,6 +800,16 @@ let box=document.getElementById("DIV")
    img1.style.marginRight="-10px"
    logo1=document.createElement("img")
    logo1.src="https://tse3.mm.bing.net/th?id=OIP.1nWRQ7r_1nEVJ6sdz_zwkwHaE8&pid=Api&P=0";
+   logo1.addEventListener("click",function(){
+    DEelete(signinLS)
+   })
+
+   function DEelete(data){
+      console.log("hii")
+      console.log(data)
+       data =null
+   
+   }
    logo1.style.width="100%"
    logo1.style.paddingTop="15px"
    img2=document.createElement("div")
