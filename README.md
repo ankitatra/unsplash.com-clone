@@ -23,7 +23,7 @@ Beautiful, free images and photos that you can download and use for any project.
 <br/>
 
 ## Fashion Page
-![image](https://user-images.githubusercontent.com/61157473/202377768-11fa16af-4475-4c0d-9642-4822ccf4ae77.png)
+![image](https://user-images.githubusercontent.com/61157473/202378523-614f0aa4-d0d4-49a6-bd42-5186b23e939f.png)
 <br/>
 
 ## Wallpaper Page
