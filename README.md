@@ -7,22 +7,27 @@ Beautiful, free images and photos that you can download and use for any project.
 ## Home Page
 ![image](https://user-images.githubusercontent.com/61157473/202145908-9a7dd5e6-d23a-4fa9-b3d9-4a34f4e64d07.png)
 <br/>
+
 ## Register Page
 ![image](https://user-images.githubusercontent.com/61157473/202146244-a1ad0eaf-58d1-4c52-b639-5f7ceb79262c.png)
 <h4>User's have no accountso first user will bw register</h4>
 <br/>
+
 ## Login Page
 ![image](https://user-images.githubusercontent.com/61157473/202146368-8e3e8e9f-7fb5-4066-8018-9ab879a888f4.png)
 <h4>User will be login as same credentials use at the time register</h4>
 <br/>
+
 ## Current Event Page
 ![image](https://user-images.githubusercontent.com/61157473/202145697-5b9ed384-2e8a-4503-990c-f3713b9008f3.png)
 <br/>
+
 ## Fashion Page
-![image](https://user-images.githubusercontent.com/61157473/202147964-fc6276d8-8bbb-451c-bc4a-584e6a1b8929.png)
+![image](https://user-images.githubusercontent.com/61157473/202377768-11fa16af-4475-4c0d-9642-4822ccf4ae77.png)
 <br/>
+
 ## Wallpaper Page
-![image](https://user-images.githubusercontent.com/61157473/202148381-e8bb4e80-f699-4a6c-b65d-231df867fd0a.png)
+![image](https://user-images.githubusercontent.com/61157473/202378023-c5d84390-5285-478f-a842-5ba0e0f62715.png)
 
 
 <br/>
